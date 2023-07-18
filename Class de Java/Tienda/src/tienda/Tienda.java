@@ -74,7 +74,7 @@ public class Tienda {
                     
                 default:
                    System.out.println("\n" + "****************************************************" + "\n");
-                    System.out.println("Usted ha ingresado un valor no valido!" + "/n");
+                    System.out.println("Usted ha ingresado un valor no valido!" + "\n");
                     menu = "";
             }
         } while (!menu.equalsIgnoreCase("i"));

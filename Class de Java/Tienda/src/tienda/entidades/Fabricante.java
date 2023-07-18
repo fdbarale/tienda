@@ -19,5 +19,21 @@ public class Fabricante {
         this.codigoFab = codigoFab;
         this.nombreFab = nombreFab;
     }
+
+    public int getCodigoFab() {
+        return codigoFab;
+    }
+
+    public void setCodigoFab(int codigoFab) {
+        this.codigoFab = codigoFab;
+    }
+
+    public String getNombreFab() {
+        return nombreFab;
+    }
+
+    public void setNombreFab(String nombreFab) {
+        this.nombreFab = nombreFab;
+    }
     
 }
